@@ -1,16 +1,14 @@
-OOP in Java – Programming Questions
-📘 Overview
+# OOP in Java – Programming Questions
 
-This repository is created for an Object-Oriented Programming (OOP) assignment in Java.
-It is planned to include 50 programming questions, which are currently being added.
+## 📘 Overview
+This repository is created for an Object-Oriented Programming (OOP) assignment in Java.  
+It is planned to include **50 programming questions**, which are currently being added.
 
-🚧 Status
-
+## 🚧 Status
 In progress — solutions are added gradually.
 
-🧠 Topics Covered
+## 🧠 Topics Covered
 (WIP)
 
-👤 Author
-
+## 👤 Author
 Yeran Wickramaarachchi
