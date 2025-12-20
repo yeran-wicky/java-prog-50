@@ -9,7 +9,7 @@ public class A_8 {
         String ans = "";
 
         while (x<=12){
-            ans = ans + num + " * " + x + " = " + (num * x) + "\n";
+            ans = ans + (num + " * " + x + " = " + (num * x) + "\n");
             x = x + 1;
         }
         System.out.println(ans);
