@@ -13,5 +13,6 @@ public class A_8 {
             x = x + 1;
         }
         System.out.println(ans);
+        sc.close();
     }
 }

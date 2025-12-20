@@ -16,5 +16,6 @@ public class A_7 {
         }else{
             System.out.println("Not available");
         }
+        sc.close();
     }
 }
