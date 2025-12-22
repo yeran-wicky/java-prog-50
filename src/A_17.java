@@ -15,8 +15,9 @@ public class A_17 {
                 if (num % x == 0){
                     System.out.println(num+" is not a prime number");
                     break;
+                }else {
+                    x = x + 1;
                 }
-                x = x + 1;
             }
             if ((x * x) > num){
                 System.out.println(num+" is a prime number");
