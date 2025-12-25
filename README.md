@@ -8,7 +8,9 @@ It is planned to include **50 programming questions**, which are currently being
 In progress — solutions are added gradually.
 
 ## 🧠 Topics Covered
-(WIP)
+-> Loops
+-> Arrays
+-> Memory management
 
 ## 👤 Author
 Yeran Wickramaarachchi
