@@ -1,3 +1,5 @@
+// Demonstrate array reference behavior: assign arr2 = arr1, modify arr2,
+// show arr1 changes.
 public class C_3 {
     int[] numberArray = {1, 2, 3, 4, 5};
     public static void main(String[] args){
