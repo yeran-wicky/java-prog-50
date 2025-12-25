@@ -8,10 +8,12 @@ public class C_5 {
 
         // Using a for loop, an object is created in each iteration and the variable
         // 'arrayObj' points to it
-        // After that the value of numberArray is updated using it as an optional task.
+        C_5 arrayObj;
         for (int i = 1; i <= 10; i++){
-            C_5 arrayObj = new C_5();
+            arrayObj = new C_5();
+            // After that the value of numberArray is updated using it as an optional task.
             arrayObj.numberArray[0] = 2;
+            // Checking the iteration count for demonstration
             if (i < 10){
                 System.out.println(arrayObj.toString()+" is eligible");
             }
