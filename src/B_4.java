@@ -1,10 +1,11 @@
-// Find the maximum element in an array
+// Compute the sum and average of array elements
 import java.util.Scanner;
-public class B_2 {
+public class B_4 {
     public static void main(String[] args){
 
-        // Initialize an int variable to store max value of the array
-        int max = 0;
+        // Create two variables to store sum and average values
+        int sum = 0;
+        int avg = 0;
         // Create an integer array of size 5
         int[] numArray = new int[5];
         Scanner sc = new Scanner(System.in);
@@ -29,13 +30,13 @@ public class B_2 {
 
         // Loops through the elements of the array
         for (int j: numArray){
-            // If each element is greater than previous element,
-            // that element is updated to the variable 'max'
-            if (j > max){
-                max = j;
-            }
+            // Adds each element and assign to the variable 'sum'
+            sum = sum + j;
         }
-        // Finally, the max value is printed which is the maximum element of the array
-        System.out.print("Maximum element is: "+max);
+        // Calculates the average using the sum
+        avg = sum/5;
+        // Finally, the sum and average is printed
+        System.out.println("Sum is: "+sum);
+        System.out.println("Average is: "+avg);
     }
 }
