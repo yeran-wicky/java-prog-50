@@ -5,12 +5,12 @@ This repository is created for an Object-Oriented Programming (OOP) assignment i
 It is planned to include **50 programming questions**, which are currently being added.
 
 ## 🚧 Status
-In progress — solutions are added gradually.
+Completed✨
 
 ## 🧠 Topics Covered
--> Loops
--> Arrays
--> Memory management
+1. Loops
+2. Arrays
+3. Memory management
 
 ## 👤 Author
 Yeran Wickramaarachchi
