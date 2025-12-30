@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class B_2 {
     public static void main(String[] args){
 
-        // Initialize an int variable to store max value of the array
-        int max = 0;
         // Create an integer array of size 5
         int[] numArray = new int[5];
         Scanner sc = new Scanner(System.in);
@@ -27,6 +25,8 @@ public class B_2 {
         }
         sc.close();
 
+        // Initialize an int variable to store max value of the array
+        int max = numArray[0];
         // Loops through the elements of the array
         for (int j: numArray){
             // If each element is greater than previous element,
